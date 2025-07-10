@@ -39,7 +39,7 @@
 
 ## 📫 Let’s Connect
 
-- 📧 Email: [Saurabh Girase2005@gmail.com]
+- 📧 Email: [saurabhgirase2005@gmail.com]
 - 🔗 LinkedIn: [linkedin.com/in/saurabh-girase-466a88287](https://www.linkedin.com/in/saurabh-girase-466a88287)  
 - 🐦 Twitter: [@SAURABH15RAJPUT](https://twitter.com/SAURABH15RAJPUT)  
 - 📸 Instagram: [@saurabh__rajput_15](https://instagram.com/saurabh__rajput_15)
