@@ -11,7 +11,7 @@
 
 - **Frontend:** React.js, Next.js, React Native  
 - **Backend:** Node.js, Express.js  
-- **Languages:** JavaScript, TypeScript, C++, Python  
+- **Languages:** C, C++, Java, Python, JavaScript, TypeScript  
 - **DevOps & Cloud:** GitHub Actions, Docker, Linux, CI/CD (Basics of AWS, Azure)  
 - **Database & Tools:** MongoDB, Git, VS Code, Firebase
 
@@ -20,35 +20,77 @@
 ## 🌱 About Me
 
 - Currently exploring full-stack development with a focus on React-based frameworks and mobile-first design.  
+- Interested in DevOps, microservices, and building scalable, production-grade systems.  
+- Enjoys open-source contribution, community events, and technical writing.
 
 ---
 
 ## 🚀 Current Projects
 
-- 🔸 **E-Tickets App** – Event ticketing platform (Next.js + TailwindCSS)  
-- 🔸 **React Native Projects** – Mobile apps for daily utilities and mini tools
+- 🔸 **E-Tickets App** – Event ticketing platform using Next.js + TailwindCSS  
+- 🔸 **React Native Projects** – Mobile apps for daily utilities and mini tools  
+- 🔸 **Portfolio Website** – Modern personal portfolio in React/Next.js  
+- 🔸 **Learning Microservices** – Dockerized backend modules with Node.js + MongoDB
 
 ---
 
 ## 🏆 Highlights & Skills
 
-- 🌟 **Top Skills**: React.js, React Native, Next.js  
--
+- 🛠️ **Top Skills:** React.js, React Native, Next.js, Firebase, MongoDB  
+- 🌐 Contributor to open-source projects and coding communities  
+- 📈 Actively improving code quality, performance, and DevOps practices
 
 ---
 
 ## 📫 Let’s Connect
 
-- 📧 Email: saurabhgirase2005@gmail.com
+- 📧 Email: [saurabhgirase2005@gmail.com](mailto:saurabhgirase2005@gmail.com)  
 - 🔗 LinkedIn: [linkedin.com/in/saurabh-girase-466a88287](https://www.linkedin.com/in/saurabh-girase-466a88287)  
 - 🐦 Twitter: [@SAURABH15RAJPUT](https://twitter.com/SAURABH15RAJPUT)  
 - 📸 Instagram: [@saurabh__rajput_15](https://instagram.com/saurabh__rajput_15)
 
 ---
 
-## 📍 GitHub Stats
+## 💻 Languages and Tools
 
-![Saurabh's GitHub stats](https://github-readme-stats.vercel.app/api?username=saurabh-rajput-15&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saurabh-rajput-15&layout=compact&theme=radical)
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+  <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="40" height="40"/>
+</p>
 
 ---
+
+## 🏅 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=saurabh-rajput-15&theme=radical&margin-w=15&margin-h=15" />
+</p>
+
+---
+
+## 📍 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=saurabh-rajput-15&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saurabh-rajput-15&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+
+---
+
+> _"Power comes to those who create. Build. Share. Repeat."_ 🚀
