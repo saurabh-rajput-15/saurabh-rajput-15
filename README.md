@@ -1,14 +1,6 @@
-<h2 align="left">Hi 👋! My name is Saurabh Rajput and I'm a Full Stack Developer from India 🇮🇳</h2>
+<h2 align="left">Hi 👋! My name is Saurabh Rajput and I'm a Full Stack Developer from India </h2>
 
-###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saurabh-rajput-15&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&locale=en" height="150" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=saurabh-rajput-15&locale=en&layout=compact&langs_count=6&theme=dracula" height="150" />
-</div>
-
-###
 
 <img align="right" height="150" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" />
 
@@ -66,6 +58,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/saurabh-rajput-15/saurabh-rajput-15/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/saurabh-rajput-15/saurabh-rajput-15/snake.svg" alt="Snake animation" />
 
 ###
