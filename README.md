@@ -1,106 +1,71 @@
-<!-- ================= HEADER ================= -->
+<h2 align="left">Hi 👋! My name is Saurabh Rajput and I'm a Full Stack Developer from India 🇮🇳</h2>
 
-<h1 align="center">Hi 👋, I'm Saurabh Rajput</h1>
-<h3 align="center">🚀 Frontend & Full-Stack Developer | React • Next.js • React Native</h3>
+###
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+Modern+Web+%26+Mobile+Apps;React+%7C+Next.js+%7C+React+Native;Future+Full+Stack+Engineer+💻" />
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=saurabh-rajput-15&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&locale=en" height="150" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=saurabh-rajput-15&locale=en&layout=compact&langs_count=6&theme=dracula" height="150" />
+</div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=saurabh-rajput-15&label=Profile%20Views&color=blue&style=for-the-badge" />
-</p>
+###
 
----
+<img align="right" height="150" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" />
 
-## 👨‍💻 About Me
+###
 
-- 🎓 B.Tech Computer Engineering (2023–2027)  
-- 🏫 SVKM’s Institute of Technology, Dhule  
-- 💻 Passionate about building scalable web & mobile apps  
-- 🚀 Currently learning **Microservices & System Design**  
-- 🎯 Goal: Become a Production-Ready Full-Stack Engineer  
+<div align="left">
 
-📫 Reach me: **saurabhgirase2005@gmail.com**
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
+  <img width="12" />
 
----
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
+  <img width="12" />
 
-## 🌐 Connect With Me
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
+  <img width="12" />
 
-<p align="left">
-<a href="https://linkedin.com/in/saurabhrajput15" target="blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" width="40"/>
-</a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" />
+  <img width="12" />
 
-<a href="https://twitter.com/saurabh15rajput" target="blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" width="40"/>
-</a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" />
+  <img width="12" />
 
-<a href="https://instagram.com/saurabh__rajput_15" target="blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/instagram/instagram-original.svg" width="40"/>
-</a>
-</p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" />
+  <img width="12" />
 
----
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" />
+  <img width="12" />
 
-## 🚀 Tech Stack
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" />
+</div>
 
-### 🎨 Frontend
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="50"/>
-<img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="50"/>
-<img src="https://reactnative.dev/img/header_logo.svg" width="50"/>
-<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="50"/>
-</p>
+###
 
-### ⚙ Backend
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="50"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="50"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="50"/>
-</p>
+<div align="left">
 
-### 🛠 Tools & DevOps
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="50"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="50"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="50"/>
-</p>
+  <a href="mailto:saurabhgirase2005@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&style=for-the-badge" height="35" />
+  </a>
 
----
+  <a href="https://linkedin.com/in/saurabhrajput15" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&style=for-the-badge" height="35" />
+  </a>
 
-## ⚡ Current Focus
+  <a href="https://twitter.com/SAURABH15RAJPUT" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&style=for-the-badge" height="35" />
+  </a>
 
-🟢 Building: Real-Time Quiz Platform (500+ users)  
-🧠 Learning: Microservices + Docker  
-🎯 Improving: Performance & System Design  
+  <a href="https://instagram.com/saurabh__rajput_15" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&style=for-the-badge" height="35" />
+  </a>
 
----
+</div>
 
-## 📊 GitHub Stats
+###
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=saurabh-rajput-15&show_icons=true&theme=radical"/>
-</p>
+<br clear="both">
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saurabh-rajput-15&layout=compact&theme=radical"/>
-</p>
+<img src="https://raw.githubusercontent.com/saurabh-rajput-15/saurabh-rajput-15/output/snake.svg" alt="Snake animation" />
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=saurabh-rajput-15&theme=radical"/>
-</p>
-
----
-
-## 🏆 GitHub Achievements
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=saurabh-rajput-15&theme=radical&margin-w=15"/>
-</p>
-
----
-
-## 💡 Dev Philosophy
-
-> "Build things that solve real problems. Learn continuously. Ship fast." 🚀
+###
