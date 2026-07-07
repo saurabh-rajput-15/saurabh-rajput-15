@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────────────────────
+   "The Masthead" — design tokens
+   A warm-paper editorial theme with a dark counterpart (see html[data-theme]
+   below); tonal variety also comes from the deep-panel sections. Editorial red
+   is RATIONED — see usage notes below.
+   ────────────────────────────────────────────────────────────────────────── */
+@theme {
+  /* Palette */
+  --color-paper: #f4f1ea;        /* page background                          */
+  --color-ink: #1a1714;          /* primary text + display                   */
+  --color-panel: #211c17;        /* deep-panel sections (Portfolio, Letters) */
+  --color-accent: #c8401b;       /* RATIONED editorial red (see below)       */
+  --color-muted: #6b645b;        /* captions, datelines, mono metadata       */
+  --color-hairline: #d8d2c6;     /* column + section rules                   */
+  --color-panel-ink: #ece6da;    /* paper-colored text ON the deep panel     */
+  --color-panel-muted: #a39a8c;  /* muted text ON the deep panel             */
+
+  /* Type families (self-hosted via @fontsource — imported in main.tsx) */
+  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-body: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* Display type scale (fluid) */
+  --text-folio: clamp(3.5rem, 11vw, 9rem);     /* project folio numerals     */
+  --text-nameplate: clamp(3rem, 12vw, 9.5rem); /* hero nameplate             */
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   RATIONED ACCENT POLICY
+   #c8401b on paper is ~3.6:1 and FAILS AA for normal-size text. Use it ONLY:
+     · page top/bottom rules        · drop cap (large display)
+     · active nav marker            · link ink-in underline
+     · "currently" status dot       · project folio numerals (large display)
+     · focus-visible rings
+   Never on body/caption text. text-muted is for metadata only, not long copy.
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Dark theme — overrides the palette tokens when <html data-theme="dark"> is
+   set (pre-paint script in index.html + ThemeToggle). Same tokens, darker
+   surfaces; the accent is nudged brighter to hold contrast on dark paper.
+   ────────────────────────────────────────────────────────────────────────── */
+html[data-theme="dark"] {
+  --color-paper: #15120d;
+  --color-ink: #ece6da;
+  --color-panel: #0e0c09;
+  --color-accent: #e2552a;
+  --color-muted: #9a9085;
+  --color-hairline: #34302a;
+  --color-panel-ink: #ece6da;
+  --color-panel-muted: #8a8175;
+}
+
+/* Lenis smooth scroll — required base styles (we add them here rather than
+   importing the package CSS, to keep the build off a versioned path). */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@layer base {
+  html {
+    /* offset anchored sections for the sticky running-folio header.
+       (Smooth scrolling is handled by Lenis, not scroll-behavior.) */
+    scroll-padding-top: 4.5rem;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    transition: background-color 0.4s ease, color 0.4s ease;
+    font-size: clamp(1.0625rem, 0.55vw + 0.95rem, 1.3125rem); /* ~17 → 21px */
+    line-height: 1.7;
+    font-feature-settings: "onum" 1, "liga" 1; /* old-style figures + ligatures */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-paper);
+  }
+
+  /* Display headings opt into Fraunces' optical-size axis */
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    line-height: 1.03;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    body { transition: none; }
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Editorial utilities + components
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Page shell — centred max-width column with fluid editorial gutters */
+@utility shell {
+  width: 100%;
+  max-width: 87.5rem; /* 1400px */
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 6vw, 5rem);
+}
+
+/* Constrain running prose to a comfortable measure */
+@utility measure {
+  max-width: 62ch;
+}
+
+/* The 12-column editorial grid container */
+@utility grid-edit {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(1rem, 2.5vw, 2rem);
+}
+
+@layer components {
+  /* Drop cap — editorial red, large display face. Used on the Profile lede. */
+  .dropcap::first-letter {
+    font-family: var(--font-display);
+    font-weight: 600;
+    float: left;
+    color: var(--color-accent);
+    font-size: 3.9em;
+    line-height: 0.82;
+    padding-right: 0.09em;
+    margin-top: 0.04em;
+  }
+
+  /* Link "ink-in": an underline that wipes in from the left on hover/focus. */
+  .ink-underline {
+    background-image: linear-gradient(var(--color-accent), var(--color-accent));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    padding-bottom: 0.06em;
+    transition: background-size 0.35s ease;
+  }
+  .ink-underline:hover,
+  .ink-underline:focus-visible {
+    background-size: 100% 2px;
+  }
+
+  /* Leader-dot row — "term .......... value" (skills dossier, AT A GLANCE). */
+  .leader {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .leader__fill {
+    flex: 1 1 auto;
+    margin-bottom: 0.28em;
+    border-bottom: 1px dotted var(--color-hairline);
+  }
+
+  /* Hanging pull quote — breaks into the left margin on wide viewports. */
+  .pullquote {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.18;
+    text-wrap: balance;
+  }
+  .pullquote::before {
+    content: "\201C";
+    color: var(--color-accent);
+    margin-right: 0.05em;
+  }
+
+  /* Arrow links — the arrow glyph slides on hover/focus. `.arrow-link` nudges
+     diagonally (for ↗ ArrowUpRight); `--h` nudges horizontally (for → ArrowRight). */
+  .arrow-link svg,
+  .arrow-link-h svg {
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .arrow-link:hover svg,
+  .arrow-link:focus-visible svg {
+    transform: translate(0.18em, -0.18em);
+  }
+  .arrow-link-h:hover svg,
+  .arrow-link-h:focus-visible svg {
+    transform: translateX(0.22em);
+  }
+
+  /* Icon-led links (socials) — the leading icon slides right on hover. */
+  .icon-link svg {
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .icon-link:hover svg,
+  .icon-link:focus-visible svg {
+    transform: translateX(0.2em);
+  }
+
+  /* Scroll-reveal: progressive enhancement.
+     - No JS  → content visible (the .js gate never applies).
+     - JS     → hidden until IntersectionObserver adds .is-visible.
+     - Reduced motion → visible instantly, no transition. */
+  .reveal {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .js .reveal:not(.is-visible) {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ink-underline { transition: none; }
+    .reveal { transition: none; }
+    .js .reveal:not(.is-visible) { opacity: 1; transform: none; }
+    .arrow-link svg,
+    .arrow-link-h svg,
+    .icon-link svg { transition: none; }
+  }
+}

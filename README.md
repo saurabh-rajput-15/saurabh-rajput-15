@@ -58,6 +58,9 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/saurabh-rajput-15/saurabh-rajput-15/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saurabh-rajput-15/saurabh-rajput-15/output/snake-dark.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/saurabh-rajput-15/saurabh-rajput-15/output/snake.svg" />
+</picture>
 
 ###
